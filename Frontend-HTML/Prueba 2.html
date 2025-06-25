@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <form action="/ControlPuto" method="post" class="form-registro" enctype="multipart/form-data">
+                <div>
+                    <label for="Nombre de usuario">
+                        <input name="Nombre" type="text" placeholder="Nombre completo" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="contraseña">
+                        <input name="clave" type="password">
+                    </label>
+                </div>
+                <div>
+                    <label for="Edad">
+                        <input name="Edad" type="number" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Fecha de nacimiento">
+                        <input name="nacimiento" type="date" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Mail">
+                        <input name="mail" type="email" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="Masculino">MASC </label>
+                    <input name="Masculino" type="radio" value="M">
+                    <label for="Femenino">FEM </label>
+                    <input name="Femenino" type="radio" value="F">
+                    <label for="Otro">OTRO </label>
+                    <input name="Otro" type="radio" value="o">
+                </div>
+                <div>
+                    <label for="Pais">
+                        <select name="Pais" id="">
+                            <option value="Argentina">ARG</option>
+                            <option value="Chile">CHL</option>
+                            <option value="Uruguay">URU</option>
+                            <option value="Brasil">BRZ</option>
+                        </select>
+                    </label>
+                </div>
+
+                <button type="submit"></button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

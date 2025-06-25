@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let nuevo = prompt('Seleccione una palabra');
+
+        var total = "";
+
+        for (let index = 0; index < nuevo.length; index++) {
+            let imprimo = nuevo.substring(index,index+1)
+            total = total + " " + imprimo;
+        }
+        
+        console.log(total);
+    </script>
+
+</body>
+</html>

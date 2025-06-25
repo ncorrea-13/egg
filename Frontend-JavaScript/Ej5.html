@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let operacion = prompt('Que operación desea realizar?');
+
+        let n1 = prompt('Dicte el primer numero');
+
+        let nuevo = parseInt(n1, 10);
+
+        let n2 = prompt('Dicte el segundo número');
+
+        let nuevo2 = parseInt(n2,10);
+
+        switch (operacion) {
+            case "suma":
+                console.log(nuevo + nuevo2);
+                break;
+            case "resta":
+                console.log(nuevo - nuevo2);
+                break;
+            case "division":
+                console.log(nuevo / nuevo2);
+                break;
+            case "multiplicacion":
+                console.log(nuevo * nuevo2);
+                break;
+            default:
+                console.log("No realizó ninguna operación")
+                break;
+        }
+    </script>
+</body>
+
+</html>

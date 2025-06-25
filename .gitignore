@@ -1,0 +1,13 @@
+# Ignorar configuraciones de IDE
+*.xml
+
+# Ignorar archivos temporales
+Frontend-HTML/Untitled-1.html
+
+# Ignorar carpetas generadas por Maven
+FullStack-SpringSecurity/target/
+
+# Ignorar configuraciones locales
+.DS_Store
+Thumbs.db
+
